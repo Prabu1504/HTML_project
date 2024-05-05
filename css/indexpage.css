@@ -1,0 +1,366 @@
+/* this is the head design */
+.icond {
+    border: 2px solid aqua;
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+}
+body {
+    overflow-x: hidden;
+}
+
+.im-icons {
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+
+
+}
+
+.pp {
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+
+}
+
+.mains {
+    position: relative;
+    left: 30px;
+}
+
+.emergency {
+    padding: 10px;
+    margin: 16px;
+    background-color: brown;
+    color: white;
+    border: 2px solid brown;
+    width: 210px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline-flex;
+    position: relative;
+
+    left: 59%;
+
+}
+.emergency:hover{
+    background-color:  brown;
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+.texct {
+    margin-top: 7px;
+    text-align: center;
+
+}
+
+/* this is index page */
+body {
+    font-optical-sizing: 10px;
+    font-style: italic;
+    /* background-size: cover; */
+    /* background-image: url(); */
+    /* overflow-x: hidden; */
+    /* background-color: slategray; */
+
+
+}
+
+/* this the nav bar page  */
+.empyu {
+    width: 100%;
+    height: 5px;
+    background-color: aqua;
+}
+
+.normal {
+    text-align: start;
+
+}
+
+.head {
+    padding: 20px;
+    font-size: 40px;
+}
+
+.logo {
+    size: 50px;
+}
+
+.laines {
+    width: 100%;
+    height: 2px;
+    background-color: aqua;
+}
+
+#headline {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+
+}
+
+.de {
+
+    float: left;
+    padding-left: 3%;
+
+
+
+}
+
+.de a {
+
+    display: block;
+    color: #111;
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.de a:hover {
+
+    padding: 14px;
+    text-align: center;
+    background-color: aqua;
+    width: 130px;
+
+}
+
+/* this is on login page */
+.In {
+    color: #b2fc05;
+    border: 2px solid aqua;
+    border-radius: 50px 50px;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 2px 2px gray;
+    position: absolute;
+    left: 90%;
+    font-size: 20px;
+
+
+}
+
+.In:hover {
+    background-color: red;
+}
+
+.Up {
+    color: #b2fc05;
+    border: 2px solid aqua;
+    border-radius: 50px 50px;
+    padding: 10px;
+    background-color: transparent;
+    text-shadow: 2px 2px gray;
+    position: absolute;
+    left: 80%;
+    font-size: 20px;
+
+
+}
+
+.Up:hover {
+    background-color: red;
+}
+
+/* this is the service page */
+
+body {
+    margin: 20px;
+    font-family: sans-serif;
+
+
+}
+
+.selector h1 {
+    margin: 0;
+    color: #111;
+    text-align: center;
+    font-size: medium;
+}
+
+
+
+
+.selector img {
+    width: 60%;
+    border: 1px solid #111;
+    border-radius: 10px 10px;
+
+}
+
+.selector {
+    background-color: whitesmoke;
+    display: block;
+    /* justify-content:space-evenly; */
+    padding: 10px;
+    width: 200px;
+    height: 110px;
+    border: 2px solid black;
+    border-radius: 20px 20px;
+    box-shadow: 4px 4px 4px gray;
+
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 100%;
+    height: fit-content;
+    background-color: aqua;
+    padding: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#Veiw {
+    justify-content: flex-end;
+}
+
+
+/* this page are appointment */
+.apt {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    /* text-shadow: 3px 3px 3px #001164; */
+}
+
+.apt:hover {
+    color: red;
+}
+
+body div select #id .Department {
+    background-color: brown;
+}
+
+.butten1 {
+    width: 90px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: green;
+    position: absolute;
+    left: 19%;
+}
+
+.butten2 {
+    width: 90px;
+    height: 35px;
+    margin-top: 40px;
+    background-color: red;
+    position: absolute;
+    right: 60%;
+}
+
+.butten1:hover {
+    background-color: green;
+    transition: 1s;
+    box-shadow: 5px 5px 2px;
+
+}
+
+.butten1:active {
+    background-color: red;
+    padding: 5px 5px;
+
+}
+
+.butten2:hover {
+    background-color: red;
+    transition: 1s;
+    box-shadow: 5px 5px 2px;
+
+}
+
+.butten2:active {
+    background-color: red;
+    padding: 5px 5px;
+
+}
+
+.container {
+    margin: 50px;
+    padding: 30px;
+    padding-left: 80px;
+    border: 2px solid aqua;
+    justify-items: center;
+    width: 700px;
+    height: 300px;
+
+}
+
+label {
+    width: 240px;
+    display: inline-block;
+}
+
+.OTP {
+    background-color: rgb(0, 0, 255);
+    font-weight: bolder;
+    margin: 2px;
+    font-size: 14px;
+    box-shadow: 2px 5px 5px;
+}
+
+.OTP:hover {
+    background-color: darkmagenta;
+    transition: 1s;
+    box-shadow: 3px 5px 5px;
+
+}
+
+/*  this the news page  */
+.single {
+    display: inline-block;
+    padding-left: 5px;
+}
+
+.moments {
+    width: 100%;
+    height: 240px;
+    background-color: aqua;
+    padding: 10px;
+    padding-top: 45px;
+    margin: 0;
+}
+
+/* this page is the contact page */
+.cont {
+    width: 100%;
+    height: 440px;
+    background-color: black;
+    color: white;
+
+}
+
+.address {
+    margin: 50px;
+    padding-top: 30px;
+    padding-left: 35px;
+    width: 240px;
+    display: inline-block;
+
+}
+
+.copyre {
+    position: absolute;
+    left: 27%;
+}
+
+.copi {
+    position: relative;
+    left: 75%;
+}
